@@ -1,7 +1,7 @@
 import random
 
 class Card:
-    def __innit__(self, suit, val):
+    def __init__(self, suit, val):
         self.suit = suit
         self.value = val
 
@@ -22,7 +22,7 @@ class Card:
 
 
 class Deck:
-    def __innit__(self):
+    def __init__(self):
         self.cards = []
         self.build()
 
@@ -43,7 +43,7 @@ def drawCard(self):
 
 
 class Player:
-    def __innit__(self, name):
+    def __init__(self, name):
         self.name = name
         self.hand = []
 
